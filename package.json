@@ -1,0 +1,28 @@
+{
+  "name": "nodejs-stripe",
+  "version": "1.0.0",
+  "description": "Stripe integration using nodeJS",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/randolf-alegre/nodejs-stripe.git"
+  },
+  "keywords": [
+    "stripe",
+    "nodejs"
+  ],
+  "author": "Randolf Alegre",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/randolf-alegre/nodejs-stripe/issues"
+  },
+  "homepage": "https://github.com/randolf-alegre/nodejs-stripe#readme",
+  "dependencies": {
+    "@hapi/joi-date": "^2.0.1",
+    "joi": "^17.2.1",
+    "stripe": "^8.102.0"
+  }
+}
